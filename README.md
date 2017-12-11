@@ -92,15 +92,15 @@ You can also modify `main.py` to change which words you want to substitute.
 
 ## Learn about tools used here
 
-SyntaxNet and Parsey McParseface - https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html
+SyntaxNet and Parsey McParseface - [https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html](https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html)
 
-Word2Vec - https://code.google.com/archive/p/word2vec/
+Word2Vec - [https://code.google.com/archive/p/word2vec/](https://code.google.com/archive/p/word2vec/)
 
-gesim - https://radimrehurek.com/gensim/install.html
+gesim - [https://radimrehurek.com/gensim/install.html](https://radimrehurek.com/gensim/install.html)
 
-nltk - http://www.nltk.org/
+nltk - [http://www.nltk.org/](http://www.nltk.org/)
 
-bag-of-words model - https://en.wikipedia.org/wiki/Bag-of-words_model
+bag-of-words model - [https://en.wikipedia.org/wiki/Bag-of-words_model](https://en.wikipedia.org/wiki/Bag-of-words_model)
 
 
 

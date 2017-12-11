@@ -65,13 +65,13 @@ print root
 dobj = get_dependent_object(dep_tree)
 print dobj
 
-# small data set - Pirates of the Carribean script
-model = Word2Vec.load("pirates_of_carribean_based_300f_40w_10c")
+# # small data set - Pirates of the Carribean script
+# model = Word2Vec.load(os.path.join(os.path.dirname(__file__), 'models', "pirates_of_carribean_based_300f_40w_10c"))
 
 # bigger data set - about 100,000 imdb movie reviews 
-model = Word2Vec.load("imdb_reviews_based_300f_40w_10c")
+# model = Word2Vec.load(os.path.join(os.path.dirname(__file__), 'models',"imdb_reviews_based_300f_40w_10c"))
 
 # large data set - 681,288 blog posts
-model = Word2Vec.load("blog_posts_300_c_40.word2vec")
+model = Word2Vec.load(os.path.join(os.path.dirname(__file__), 'models',"blog_posts_300_c_40.word2vec"))
 
 print model.most_similar(dobj)

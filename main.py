@@ -93,13 +93,16 @@ dobj = get_dependent_object(dep_tree)
 # large data set - 681,288 blog posts
 model = Word2Vec.load(os.path.join(os.path.dirname(__file__), 'models',"blog_posts_300_c_40.word2vec"))
 
-print model.most_similar(dobj)
+if dobj:
+	print model.most_similar(dobj)
 
-all_sym_words = get_sym_words(model,dobj)
-print all_sym_words
+	all_sym_words = get_sym_words(model,dobj)
+	print all_sym_words
 
-print "\nInput sentence :\n"
-print input_str
+	print "\nInput sentence :\n"
+	print input_str
 
-print "\nNew sentences using word2vec suggetions :\n"
-print replace_dobj(input_str,dobj,all_sym_words)
+	print "\nNew sentences using word2vec suggetions :\n"
+	print replace_dobj(input_str,dobj,all_sym_words)
+else:
+	print "Didn't find a dependent object"

@@ -1,7 +1,7 @@
 Deep Learning Playground
 ========================
 
-This project uses several Deep Learning tools to analyse text and provide substitution for a given word.
+This project uses several Deep Learning tools to analyze text and provide substitution for a given word.
 
 ## Project Structure
 
